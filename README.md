@@ -25,6 +25,7 @@ Additional Design Requirements
 2. Normalize your database to third normal form.
 3. All multi-value columns must be saved to their own table.
 4. Create foregn keys to enforce referential integrity. For instance, you must have foreign keys with references to at least the following:
+
     a. Staff and offices
     
     b. Patient and diagnoses
@@ -38,5 +39,7 @@ Additional Design Requirements
 5. Create descriptive column labels for all output. For instance, don't display a column label named count (*)
 
 Security:
+
     a. Staff are restricted from accessing patient date of birth and age.
+    
     b. Patients can view but not change medical records.
