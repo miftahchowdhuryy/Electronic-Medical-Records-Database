@@ -31,3 +31,7 @@ Additional Design Requirements
     d. Patient and alleriges
     e. Patient and medications
 5. Create descriptive column labels for all output. For instance, don't display a column label named count (*)
+
+Security:
+    a. Staff are restricted from accessing patient date of birth and age.
+    b. Patients can view but not change medical records.
